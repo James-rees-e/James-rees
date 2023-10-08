@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.nav {
+    width: 100vw;
+    display: flex;
+    margin: 0%;
+    background-color: #cccc00;
+    position: fixed;
+    z-index: 1000;
+}
+
+.word-outer {
+    width: 50%;
+    justify-content: start;
+    display: flex;
+}
+
+.word {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    transition: 0.5s;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+}
+
+.word:hover {
+    background-color: #ffd11a;
+}
+
+.icon {
+    width: 7%;
+    display: inline-block;
+    align-items: start;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mySlider {
+    width: 100%;
+    margin-top: 89px;
+}
+
+.mySlider img {
+    width: 100%;
+}
+
+#title {
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.quote {
+    width: 100%;
+    background-color: #5983b3;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-style: oblique;
+    padding: 40px;
+}
+
+.poem-outer {
+    text-align: center;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.poem {
+    font-style: italic;
+}
+
+.Information {
+    padding: 10px 100px;
+    padding-bottom: 100px;
+    background-color: #5983b3;
+}
+
+.INFO {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.INFO p {
+    padding: 10px;
+}
+
+.origins {
+    padding-top: 1px;
+    text-align: center;
+    background-color: #d45050;
+}
+
+
+.origins-item {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.origins-item p {
+    width: 60%;
+    font-size: 20px;
+}
+
+.origins h1 {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+.origins-item img {
+    width: 40%;
+}
+
+.origins:last-child {
+    padding-bottom: 100px;
+}
+
+.how {
+    padding-top: 89.5px;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #cccc00;
+}
+
+.contact h1 {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    padding: 20px 0px 10px 100px;
+    text-align: start;
+    color: white;
+}
+
+#co12 {
+    color: #3dbf60;
+}
+
+#Tcake {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.cake-outer {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: start;
+    color: whitesmoke;
+}
+
+.cake {
+    text-align: center;
+    padding-top: 100px;
+    background-color: #fcf4d7;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+.cake-item {
+    background-color: #5983b3;
+    width: 250px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.cake-item:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.hidden {
+    display: none;
+}
+
+#main {
+    cursor: pointer;
+}
+
+#info {
+    cursor: pointer;
+}
+
+#info2 {
+    cursor: pointer;
+}
+
+#sale {
+    cursor: pointer;
+}
+
+#tales {
+    cursor: pointer;
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc0cc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #f54242;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #d45050;
+}
+
+.AAA {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
